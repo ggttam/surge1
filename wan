@@ -1,0 +1,81 @@
+[General]
+loglevel = warning
+allow-wifi-access = false
+network-framework = false
+show-error-page-for-reject = false
+dns-server = 223.5.5.5, 119.29.29.29, system
+skip-proxy = 192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8, 127.0.0.1, localhost, *.local
+bypass-system = true
+ipv6 = false
+
+[Replica]
+hide-apple-request=1
+hide-crashlytics-request=1
+hide-udp=1
+keyword-filter-type=(null)
+keyword-filter=(null)
+
+[Proxy]
+🇻🇳 越南测试 = vmess, 183.232.53.14, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/, ws-headers=host:"vn1.v2aky.club.yyz86.com"
+🇺🇸 U-CDN美国（01） = vmess, us1.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/, ws-headers=host:"us1.cxchchina.com"
+🇺🇸 U-CDN美国（02） = vmess, us2.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"us2.cxchchina.com"
+🇯🇵 J-CDN日本（01） = vmess, jp1.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"jp1.cxchchina.com"
+🇯🇵 J-CDN日本（02） = vmess, jp2.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"jp2.cxchchina.com"
+🇯🇵 免费节点-日本01 = vmess, uscn21.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"uscn21.cxchchina.com"
+🇭🇰 H-CDN郑州-香港（01） = vmess, hk1.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"hk1.cxchchina.com"
+🇭🇰 H-CDN武汉-香港（01） = vmess, hk2.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"hk1.cxchchina.com"
+🇭🇰 H-CDN重庆-香港（01） = vmess, hk3.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"hk1.cxchchina.com"
+防止失联请加Telegram电报群：https://t.me/v2akyQ = vmess, 10086, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d
+🇭🇰 郑州-阿里云香港（01） = vmess, alhk1.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"alhk1.cxchchina.com"
+🇭🇰 武汉-阿里云香港（02） = vmess, alhk2.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"alhk2.cxchchina.com"
+🇨🇳 宁波-阿里云香港（03） = vmess, alhk3.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"alhk3.cxchchina.com"
+🇳🇫 NF-天津-台湾（01） = vmess, twtj.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"tw1.cxchchina.com"
+🇳🇫 NF-武汉-台湾（02） = vmess, twwh.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"tw1.cxchchina.com"
+🇳🇫 NF-济南-台湾（03） = vmess, twjn.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"tw1.cxchchina.com"
+🇭🇰 H-CDN香港（02） = vmess, azhk2.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"hk2.cxchchina.com"
+🇭🇰 H-CDN香港（03） = vmess, azhk3.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"hk3.cxchchina.com"
+🇭🇰 H-香港（直连） = vmess, 65.52.162.142, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d
+🇳🇫 NF-CDN武汉-美国Psychz（01） = vmess, p1.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"us10.cxchchina.com"
+🇳🇫 NF-CDN郑州-美国Psychz（02） = vmess, p2.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"us10.cxchchina.com"
+🇳🇫 NF-CDN重庆-美国Psychz（03） = vmess, p3.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"us10.cxchchina.com"
+🇳🇫 NF-CDN东莞-美国Psychz（04） = vmess, p4.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"us10.cxchchina.com"
+🇳🇫 NF-CDN青岛-美国Psychz（05） = vmess, p5.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"us10.cxchchina.com"
+🇳🇫 NF-CDN南宁-美国Psychz（06） = vmess, p6.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"us10.cxchchina.com"
+🇳🇫 NF-CDN济南-美国Psychz（07） = vmess, p7.vtr5.com, 80, username=cb4fabef-9a2d-4eea-b2d2-4a58f2b3a26d, ws=true, ws-path=/pa, ws-headers=host:"us10.cxchchina.com"
+
+[Proxy Group]
+代理 = url-test, 🇻🇳 越南测试, 🇺🇸 U-CDN美国（01）, 🇺🇸 U-CDN美国（02）, 🇯🇵 J-CDN日本（01）, 🇯🇵 J-CDN日本（02）, 🇯🇵 免费节点-日本01, 🇭🇰 H-CDN郑州-香港（01）, 🇭🇰 H-CDN武汉-香港（01）, 🇭🇰 H-CDN重庆-香港（01）, 防止失联请加Telegram电报群：https://t.me/v2akyQ, 🇭🇰 郑州-阿里云香港（01）, 🇭🇰 武汉-阿里云香港（02）, 🇨🇳 宁波-阿里云香港（03）, 🇳🇫 NF-天津-台湾（01）, 🇳🇫 NF-武汉-台湾（02）, 🇳🇫 NF-济南-台湾（03）, 🇭🇰 H-CDN香港（02）, 🇭🇰 H-CDN香港（03）, 🇭🇰 H-香港（直连）, 🇳🇫 NF-CDN武汉-美国Psychz（01）, 🇳🇫 NF-CDN郑州-美国Psychz（02）, 🇳🇫 NF-CDN重庆-美国Psychz（03）, 🇳🇫 NF-CDN东莞-美国Psychz（04）, 🇳🇫 NF-CDN青岛-美国Psychz（05）, 🇳🇫 NF-CDN南宁-美国Psychz（06）, 🇳🇫 NF-CDN济南-美国Psychz（07）, url=http://bing.com/, timeout=0, interval=0, tolerance=0
+
+[Rule]
+DOMAIN,m.360zbz.com,DIRECT
+#谷歌
+DOMAIN-SUFFIX,ggpht.com,REJECT-TINYGIF // 广告图
+DOMAIN-SUFFIX,ytimg.com,代理 // 预览图
+DOMAIN-SUFFIX,googleapis.com,代理
+DOMAIN-SUFFIX,googlevideo.com,代理
+DOMAIN-SUFFIX,youtube.com,代理
+DOMAIN-KEYWORD,google.com,代理
+#哔哩
+DOMAIN-SUFFIX,hdslb.com,REJECT
+#苹果
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN-KEYWORD,icloud,DIRECT
+DOMAIN-KEYWORD,apple,DIRECT
+#电报
+IP-CIDR,196.55.216.193/24,代理
+IP-CIDR,149.154.164.0/24,代理
+IP-CIDR,91.108.56.72/24,代理
+#国内
+GEOIP,CN,DIRECT
+#其它
+FINAL,DIRECT
+
+[MITM]
+skip-server-cert-verify = true
+hostname = *.googlevideo.com
+ca-passphrase = 33D25389
+ca-p12 = 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
+
+[Script]
+http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=6FEAC640-0336-4F4A-B490-4661266A7264.js
